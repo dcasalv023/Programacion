@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         double h, t;
-        final double g = 9.81;
+        final double g = 9.82;
 
         System.out.println("Dime la altura en metros en la que cae el objeto: ");
         h = reader.nextDouble();
