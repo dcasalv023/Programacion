@@ -1,4 +1,3 @@
-
 //Un restaurante nos ha encargado una aplicación para colocar a los clientes en
 //sus mesas. En una mesa se pueden sentar de 0 (mesa vacía) a 4 comensales
 //(mesa llena). Cuando llega un cliente se le pregunta cuántos son. De momento
@@ -15,9 +14,8 @@
 //funcionamiento del programa se ilustra a continuación:
 
 package com.company;
+
 import java.util.Scanner;
-
-
 
 public class Main {
     public static void main(String[] args) {
@@ -110,7 +108,7 @@ public class Main {
                             }
                         }
                         if(i == 9){
-                            System.out.println("No hay huecos libres losiento mucho");
+                            System.out.println("No hay huecos libres lo siento mucho");
                             personas = -1;
                             break;
                         }
